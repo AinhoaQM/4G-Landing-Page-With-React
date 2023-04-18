@@ -11,7 +11,7 @@ const Web = () => {
 			<Navbar/>
 			<Jumbotron/>
 			<div className="container-xxl">
-				<div class="row">
+				<div class="row text-center">
 					<Card/>
 					<Card/>
 					<Card/>
