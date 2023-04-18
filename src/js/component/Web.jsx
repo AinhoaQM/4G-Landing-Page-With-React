@@ -1,14 +1,25 @@
 import React from "react";
-import Card from "./Card";
-import Navbar from "./Navbar";
-import Jumbotron from "./Jumbotron";
+import Navbar from "./Navbar.js";
+import Jumbotron from "./Jumbotron.js";
+import Card from "./Card.js";
+import Footer from "./Footer.js";
+
 
 const Web = () => {
 	return (
 		<div>
 			<Navbar/>
 			<Jumbotron/>
-			<Card/>
+			<div className="container-xxl">
+				<div class="row">
+					<Card/>
+					<Card/>
+					<Card/>
+					<Card/>
+					
+				</div>
+        	</div>
+			<Footer/>
 		</div>
 	);
 };
